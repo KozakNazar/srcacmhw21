@@ -1,6 +1,6 @@
 /*************************************************
 * N.Kozak // Lviv'2020 // ACM // JCL use example *
-*    file: ACMHW19.java (renamed to Main.java)   *
+*    file: ACMHW21.java (renamed to Main.java)   *
 **************************************************/
 //// use default package // or use package: // package org.eom.acm; 
 
@@ -198,7 +198,7 @@ public class Main {
 			"Worse than the mutines in the bilboes. Rashly- " +
 			"And prais'd be rashness for it-let us know " +
 			"Our indiscretion sometimes serves us well ... "
-			; // — Hamlet, Act 5, Scene 2, 4–8
+			; // â€” Hamlet, Act 5, Scene 2, 4â€“8
 		
 		acmhw19.scan(text, list);
 		acmhw19.sort(text, list);
