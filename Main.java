@@ -189,7 +189,7 @@ public class Main {
     }
     
 	public static void main(String[] args) {
-		Main acmhw19 = new Main();
+		Main acmhw21 = new Main();
 				
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		String text = 
@@ -200,20 +200,20 @@ public class Main {
 			"Our indiscretion sometimes serves us well ... "
 			; // — Hamlet, Act 5, Scene 2, 4–8
 		
-		acmhw19.scan(text, list);
-		acmhw19.sort(text, list);
-		HashMap<Integer, String> mapList = acmhw19.getMapList(text, list);
+		acmhw21.scan(text, list);
+		acmhw21.sort(text, list);
+		HashMap<Integer, String> mapList = acmhw21.getMapList(text, list);
 		
-	    System.out.println("Indexes:");
-	    acmhw19.printListIndexes(list);
+	        System.out.println("Indexes:");
+	        acmhw21.printListIndexes(list);
     
 		System.out.println();		
 		System.out.println("Values:");		
-		acmhw19.print(text, list);
+		acmhw21.print(text, list);
 		
 		System.out.println();	
 		System.out.println("Values(by map):");							
-		acmhw19.printMapList(mapList);
+		acmhw21.printMapList(mapList);
 		
 		// For suspend	
 		/*
